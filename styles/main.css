@@ -1,25 +1,75 @@
 body {
-    background-color: white;
+  margin: 0;
 }
-button {
+
+.container {
+  display: flex;
+}
+
+  button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 80px;
     font-size: 16px;
     text-align: center;
-    text-decoration: none;
     cursor: pointer;
-    border: 1px solid #3498db;
-    color: #ffffff;
-    background-color: #3498db;
+    border: 1px solid white;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%; 
   }
   button:hover {
-    background-color: #2980b9;
-    border-color: #2980b9;
+    background-color: yellow;
+    border-color: yellow;
   }
   button:active {
-    background-color: #1f618d;
-    border-color: #1f618d;
+    background-color: yellow;
+    border-color: yellow;
   }
   
+ 
+
+  .left-side {
+    width: 40%;
+    float: left;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+  }
+
+  .right-side {
+    width: 60%;
+    float: left;
+    height: 100vh; 
+  }
+ 
+.split-line {
+  border-right: 6px solid #000000;
+  margin-top: 8vh;
+  height: 92vh;
+}
+.split-bot {
+  margin-left: -50%;
+  width: 200%;
+  border-top: 6px solid black;
+  margin-top: 80px;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+ion-icon {
+  font-size: 3em; 
+}
+
+
+
+
+
+
+
