@@ -67,9 +67,16 @@ ion-icon {
   font-size: 3em; 
 }
 
+a:visited {
+  color: black;
+}
 
-
-
+a:hover {
+  color: hotpink;
+  transition: 0.5s;
+  transform:scale(2);
+  
+}
 
 
 
